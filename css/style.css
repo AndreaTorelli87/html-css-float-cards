@@ -3,34 +3,23 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
-
 }
 
 main{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
 h1{
     color: #E53170;
+    margin: 40px;
 }
 
 header{
     text-align: center;
-}
-
-h1, p, div{
     margin-bottom: 20px;
-}
-
-/* DEBUG */
-
-.scheda {
-    height: 100px;
 
 }
-
-/* ---------------------------------- */
 
 .scheda {
     float: left;
@@ -38,20 +27,26 @@ h1, p, div{
     background-color: black;
     color: white;
     margin: 20px 10px;
+    box-shadow: 0px 0px 10px #000000b0;
 }
 
 img{
-    height: 100px;
+    height: 80px;
     float: left;
+    transition: transform .2s; 
+}
+
+img:hover{
+    transform: scale(1.5); 
 }
 
 .bordoScheda{
-    padding: 5px;
+    padding: 10px;
     display: table;
+    font-size: 14px;
 }
 
-h3, span{
-    padding: 2px;
-    display: inline-block;
-    font-weight: bold;
+a{
+    color: #6ECBEB;
+    text-decoration: none;
 }
