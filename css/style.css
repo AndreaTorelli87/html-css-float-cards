@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+
 }
 
 main{
@@ -10,11 +12,40 @@ main{
 }
 
 h1{
-    padding: 30px;
     color: #E53170;
 }
 
 header{
     text-align: center;
-    font-family: 'Fredoka', sans-serif;
+}
+
+h1, p, div{
+    margin-bottom: 20px;
+}
+
+/* DEBUG */
+
+.scheda {
+    height: 100px;
+
+}
+
+/* ---------------------------------- */
+
+.scheda {
+    float: left;
+    width: calc(100% / 3 - 20px);
+    background-color: black;
+    color: white;
+    margin: 20px 10px;
+}
+
+img{
+    height: 100px;
+    float: left;
+}
+
+h3, span{
+    padding: 5px;
+    display: inline-block;
 }
